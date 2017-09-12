@@ -36,3 +36,9 @@ header {
 #item2 {
   text-align: right;
 }
+
+#advanced-selectors ol>li p
+{
+  padding: 15px;
+  background-color: grey;
+}
