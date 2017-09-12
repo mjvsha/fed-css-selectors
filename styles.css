@@ -37,8 +37,30 @@ header {
   text-align: right;
 }
 
-#advanced-selectors ol>li p
+#advanced-selectors ol>li
 {
   padding: 15px;
   background-color: grey;
+}
+
+#advanced-selectors ol>li:nth-child(odd) {
+  background-color: green;
+}
+/* i had a p tag on my first advanced-selectors id where i was targeting grey but
+it wass overiding the odd greens shown on my page because the p was overtop of the list
+therefore its background color was blocking my list's background color */
+
+#advanced-selectors a[title="Bitmaker"]:hover  {
+  text-decoration: none;
+}
+
+#advanced-selectors ol>ul li {
+  background-color: red;
+}
+#advanced-selectors ul li a:link {
+  background-color: red;
+}
+
+#advanced-selectors ul li a:hover {
+  background-color: yellow;
 }
