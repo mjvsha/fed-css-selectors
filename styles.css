@@ -54,10 +54,8 @@ therefore its background color was blocking my list's background color */
   text-decoration: none;
 }
 
-#advanced-selectors ol>ul li {
-  background-color: red;
-}
-#advanced-selectors ul li a:link {
+
+#advanced-selectors ul li a {
   background-color: red;
 }
 
